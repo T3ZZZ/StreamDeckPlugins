@@ -1,0 +1,50 @@
+{
+    "SDKVersion": 2,
+    "UUID": "com.jd.apoequalizeressentials",
+    "Name": "APO Equalizer Essentials",
+    "Version": "1.0.0.0",
+    "Author": "T3ZZZ",
+    "Description": "Detects the VST plugins in your Equalizer APO configuration and lets you toggle them on or off.",
+    "Category": "APO Equalizer Essentials",
+    "CategoryIcon": "imgs/plugin/category",
+    "Icon": "imgs/plugin/icon",
+    "URL": "https://sourceforge.net/projects/equalizerapo/",
+    "Nodejs": {
+        "Version": "20",
+        "Debug": "enabled"
+    },
+    "CodePath": "bin/plugin.js",
+    "Software": {
+        "MinimumVersion": "6.5"
+    },
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "Actions": [
+        {
+            "UUID": "com.jd.apoequalizeressentials.toggle",
+            "Name": "Toggle VST",
+            "Icon": "imgs/actions/icon",
+            "PropertyInspectorPath": "ui/toggle.html",
+            "Tooltip": "Enable or disable a VST plugin from the Equalizer APO configuration.",
+            "Controllers": [
+                "Keypad"
+            ],
+            "States": [
+                {
+                    "Image": "imgs/actions/off",
+                    "TitleAlignment": "bottom",
+                    "FontSize": 12
+                },
+                {
+                    "Image": "imgs/actions/on",
+                    "TitleAlignment": "bottom",
+                    "FontSize": 12
+                }
+            ]
+        }
+    ]
+}

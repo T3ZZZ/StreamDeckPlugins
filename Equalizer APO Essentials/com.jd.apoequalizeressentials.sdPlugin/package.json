@@ -1,0 +1,7 @@
+{
+    "name": "apo-equalizer-essentials",
+    "type": "module",
+    "dependencies": {
+        "@elgato/streamdeck": "^2.1.2"
+    }
+}
