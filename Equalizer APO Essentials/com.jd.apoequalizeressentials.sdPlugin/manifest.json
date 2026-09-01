@@ -8,7 +8,7 @@
     "Category": "APO Equalizer Essentials",
     "CategoryIcon": "imgs/plugin/category",
     "Icon": "imgs/plugin/icon",
-    "URL": "https://sourceforge.net/projects/equalizerapo/",
+    "URL": "https://github.com/T3ZZZ/StreamDeckPlugins/tree/main/Equalizer%20APO%20Essentials",
     "Nodejs": {
         "Version": "20",
         "Debug": "enabled"
